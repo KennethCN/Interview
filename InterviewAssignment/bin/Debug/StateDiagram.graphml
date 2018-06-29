@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<graphml xmlns:y="http://www.yworks.com/xml/graphml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:yed="http://www.yworks.com/xml/yed/3" xmlns:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd" xmlns="http://graphml.graphdrawing.org/xmlns">
+  <!--Created by Appccelerate.StateMachine.YEdStateMachineReportGenerator-->
+  <key for="graphml" id="d0" yfiles.type="resources" />
+  <key for="port" id="d1" yfiles.type="portgraphics" />
+  <key for="port" id="d2" yfiles.type="portgeometry" />
+  <key for="port" id="d3" yfiles.type="portuserdata" />
+  <key attr.name="url" attr.type="string" for="node" id="d4" />
+  <key attr.name="description" attr.type="string" for="node" id="d5" />
+  <key for="node" id="d6" yfiles.type="nodegraphics" />
+  <key attr.name="Beschreibung" attr.type="string" for="graph" id="d7">
+    <default />
+  </key>
+  <key attr.name="url" attr.type="string" for="edge" id="d8" />
+  <key attr.name="description" attr.type="string" for="edge" id="d9" />
+  <key for="edge" id="d10" yfiles.type="edgegraphics" />
+  <graph edgedefault="directed" id="G">
+    <node id="Ready">
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" modelName="internal" modelPosition="t">Ready</y:NodeLabel>
+              <y:State closed="false" innerGraphDisplayEnabled="true" />
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="Ready:">
+        <node id="Idle">
+          <data key="d6">
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" modelName="internal" modelPosition="t">Idle</y:NodeLabel>
+                  <y:State closed="false" innerGraphDisplayEnabled="true" />
+                  <y:BorderStyle width="2.0" />
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
+          </data>
+          <graph edgedefault="directed" id="Idle:">
+            <node id="PowerOn">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:NodeLabel>PowerOn</y:NodeLabel>
+                  <y:Shape type="ellipse" />
+                  <y:BorderStyle width="2.0" />
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="PowerOff">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:NodeLabel>PowerOff</y:NodeLabel>
+                  <y:Shape type="ellipse" />
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="PoweringOff">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:NodeLabel>PoweringOff</y:NodeLabel>
+                  <y:Shape type="ellipse" />
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="PoweringOn">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:NodeLabel>PoweringOn</y:NodeLabel>
+                  <y:Shape type="ellipse" />
+                </y:ShapeNode>
+              </data>
+            </node>
+          </graph>
+        </node>
+        <node id="Processing">
+          <data key="d6">
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" modelName="internal" modelPosition="t">Processing</y:NodeLabel>
+                  <y:State closed="false" innerGraphDisplayEnabled="true" />
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
+          </data>
+          <graph edgedefault="directed" id="Processing:">
+            <node id="AxesMoving">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:NodeLabel>AxesMoving</y:NodeLabel>
+                  <y:Shape type="ellipse" />
+                  <y:BorderStyle width="2.0" />
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="AxesIdle">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:NodeLabel>AxesIdle</y:NodeLabel>
+                  <y:Shape type="ellipse" />
+                </y:ShapeNode>
+              </data>
+            </node>
+          </graph>
+        </node>
+      </graph>
+    </node>
+    <node id="Down">
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" modelName="internal" modelPosition="t">Down</y:NodeLabel>
+              <y:State closed="false" innerGraphDisplayEnabled="true" />
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="Down:">
+        <node id="NotInitialized">
+          <data key="d6">
+            <y:ShapeNode>
+              <y:NodeLabel>NotInitialized</y:NodeLabel>
+              <y:Shape type="ellipse" />
+              <y:BorderStyle width="2.0" />
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="Initializing">
+          <data key="d6">
+            <y:ShapeNode>
+              <y:NodeLabel>Initializing</y:NodeLabel>
+              <y:Shape type="ellipse" />
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="Error">
+          <data key="d6">
+            <y:ShapeNode>
+              <y:NodeLabel>Error</y:NodeLabel>
+              <y:Shape type="ellipse" />
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <edge id="InitializationStarts0" source="NotInitialized" target="Initializing">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>InitializationStarts</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="InitializationEnds1" source="Initializing" target="PowerOn">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>InitializationEnds</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="ExecutionStarts2" source="PowerOn" target="Processing">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>ExecutionStarts</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="PowerOff3" source="PowerOn" target="PoweringOff">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>PowerOff</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="ExecutionEnds4" source="Processing" target="PowerOn">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>ExecutionEnds</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="AxesBusy5" source="AxesIdle" target="AxesMoving">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>AxesBusy</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="AxesStop6" source="AxesMoving" target="AxesIdle">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>AxesStop</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="PowerOffReady7" source="PoweringOff" target="PowerOff">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>PowerOffReady</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="PowerOn8" source="PowerOff" target="PoweringOn">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>PowerOn</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="PowerOnReady9" source="PoweringOn" target="PowerOn">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>PowerOnReady</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="InitializationStarts10" source="Error" target="Initializing">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>InitializationStarts</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="Error11" source="Ready" target="Error">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>Error</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="Error12" source="Down" target="Error">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>Error</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="Deinitialize13" source="Idle" target="NotInitialized">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:LineStyle type="line" />
+          <y:Arrows source="none" target="standard" />
+          <y:EdgeLabel>Deinitialize</y:EdgeLabel>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d0">
+    <y:Resources />
+  </data>
+</graphml>

@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Appccelerate.Fundamentals.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Appccelerate.Events.Fakes.ShimEventArgs`1">
+            <summary>Appccelerate.Events.EventArgs`1 的填充码类型</summary>
+        </member>
+        <member name="M:Appccelerate.Events.Fakes.ShimEventArgs`1.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Appccelerate.Events.Fakes.ShimEventArgs`1.#ctor(Appccelerate.Events.EventArgs{`0})">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Appccelerate.Events.Fakes.ShimEventArgs`1.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Appccelerate.Events.Fakes.ShimEventArgs`1.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Appccelerate.Events.Fakes.ShimEventArgs`1.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Appccelerate.Events.Fakes.ShimEventArgs`1.ConstructorT0">
+            <summary>设置 EventArgs`1.EventArgs`1(!0 value) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Events.Fakes.ShimEventArgs`1.ValueGet">
+            <summary>设置 EventArgs`1.get_Value() 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Events.Fakes.ShimEventArgs`1.ValueSetT0">
+            <summary>设置 EventArgs`1.set_Value(!0 value) 的 填充码</summary>
+        </member>
+        <member name="T:Appccelerate.Events.Fakes.ShimEventArgs`1.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Events.Fakes.ShimEventArgs`1.AllInstances.ValueGet">
+            <summary>设置 EventArgs`1.get_Value() 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Events.Fakes.ShimEventArgs`1.AllInstances.ValueSetT0">
+            <summary>设置 EventArgs`1.set_Value(!0 value) 的 填充码</summary>
+        </member>
+        <member name="T:Appccelerate.Events.Fakes.StubEventArgs`1">
+            <summary>Appccelerate.Events.EventArgs`1 的存根类型</summary>
+        </member>
+        <member name="M:Appccelerate.Events.Fakes.StubEventArgs`1.#ctor(`0)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Appccelerate.Events.Fakes.StubEventArgs`1.InitializeStub">
+            <summary>初始化 type StubEventArgs 的新实例</summary>
+        </member>
+        <member name="P:Appccelerate.Events.Fakes.StubEventArgs`1.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Appccelerate.Events.Fakes.StubEventArgs`1.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Appccelerate.Events.Fakes.StubEventArgs`1.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Appccelerate.Fakes.ShimEnsure">
+            <summary>Appccelerate.Ensure 的填充码类型</summary>
+        </member>
+        <member name="M:Appccelerate.Fakes.ShimEnsure.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Appccelerate.Fakes.ShimEnsure.ArgumentAssignableFromOf1TypeM0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Type,``0,System.String})">
+            <summary>设置 Ensure.ArgumentAssignableFrom(Type targetType, !!0 argumentValue, String argumentName) 的 填充码</summary>
+        </member>
+        <member name="M:Appccelerate.Fakes.ShimEnsure.ArgumentInRangeOf1BooleanM0StringString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Boolean,``0,System.String,System.String})">
+            <summary>设置 Ensure.ArgumentInRange(Boolean condition, !!0 argumentValue, String argumentName, String message) 的 填充码</summary>
+        </member>
+        <member name="M:Appccelerate.Fakes.ShimEnsure.ArgumentMatchesOf1BooleanM0StringString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Boolean,``0,System.String,System.String})">
+            <summary>设置 Ensure.ArgumentMatches(Boolean condition, !!0 argumentValue, String argumentName, String message) 的 填充码</summary>
+        </member>
+        <member name="M:Appccelerate.Fakes.ShimEnsure.ArgumentNotNullOf1M0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0,System.String})">
+            <summary>设置 Ensure.ArgumentNotNull(!!0 argumentValue, String argumentName) 的 填充码</summary>
+        </member>
+        <member name="M:Appccelerate.Fakes.ShimEnsure.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Appccelerate.Fakes.ShimEnsure.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Appccelerate.Fakes.ShimEnsure.ArgumentInRangeBooleanString">
+            <summary>设置 Ensure.ArgumentInRange(Boolean condition, String message) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Fakes.ShimEnsure.ArgumentMatchesBooleanString">
+            <summary>设置 Ensure.ArgumentMatches(Boolean condition, String message) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Fakes.ShimEnsure.ArgumentNotNegativeInt32String">
+            <summary>设置 Ensure.ArgumentNotNegative(Int32 argumentValue, String argumentName) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Fakes.ShimEnsure.ArgumentNotNullOrEmptyStringString">
+            <summary>设置 Ensure.ArgumentNotNullOrEmpty(String argumentValue, String argumentName) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Fakes.ShimEnsure.ArgumentTypeAssignableFromTypeTypeString">
+            <summary>设置 Ensure.ArgumentTypeAssignableFrom(Type targetType, Type argumentValue, String argumentName) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Fakes.ShimEnsure.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Appccelerate.Fakes.ShimEnsure.OperationNotSupportedStringObjectArray">
+            <summary>设置 Ensure.OperationNotSupported(String message, Object[] arguments) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Fakes.ShimEnsure.OperationNotValidStringObjectArray">
+            <summary>设置 Ensure.OperationNotValid(String message, Object[] arguments) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Fakes.ShimEnsure.OperationSupportedBooleanStringObjectArray">
+            <summary>设置 Ensure.OperationSupported(Boolean condition, String message, Object[] arguments) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Fakes.ShimEnsure.OperationValidBooleanStringObjectArray">
+            <summary>设置 Ensure.OperationValid(Boolean condition, String message, Object[] arguments) 的 填充码</summary>
+        </member>
+        <member name="T:Appccelerate.Fakes.ShimValidatedNotNullAttribute">
+            <summary>Appccelerate.ValidatedNotNullAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:Appccelerate.Fakes.ShimValidatedNotNullAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Appccelerate.Fakes.ShimValidatedNotNullAttribute.#ctor(Appccelerate.ValidatedNotNullAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Appccelerate.Fakes.ShimValidatedNotNullAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Appccelerate.Fakes.ShimValidatedNotNullAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Appccelerate.Fakes.ShimValidatedNotNullAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Appccelerate.Fakes.ShimValidatedNotNullAttribute.Constructor">
+            <summary>设置 ValidatedNotNullAttribute.ValidatedNotNullAttribute() 的 填充码</summary>
+        </member>
+        <member name="T:Appccelerate.Fakes.ShimValidatedNotNullAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:Appccelerate.Formatters.Fakes.ShimFormatHelper">
+            <summary>Appccelerate.Formatters.FormatHelper 的填充码类型</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.ShimFormatHelper.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.ShimFormatHelper.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.ShimFormatHelper.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimFormatHelper.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimFormatHelper.ConvertToStringIDictionaryOfObjectObjectString">
+            <summary>设置 FormatHelper.ConvertToString(IDictionary`2&lt;Object,Object&gt; dictionary, String separator) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimFormatHelper.ConvertToStringIEnumerableString">
+            <summary>设置 FormatHelper.ConvertToString(IEnumerable collection, String separator) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimFormatHelper.SecureFormatIFormatProviderStringObjectArray">
+            <summary>设置 FormatHelper.SecureFormat(IFormatProvider formatProvider, String format, Object[] args) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimFormatHelper._SecureFormatb__0StringObject">
+            <summary>设置 FormatHelper.&lt;SecureFormat&gt;b__0(String current, Object arg) 的 填充码</summary>
+        </member>
+        <member name="T:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter">
+            <summary>Appccelerate.Formatters.StringTruncationFormatter 的填充码类型</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.#ctor(Appccelerate.Formatters.StringTruncationFormatter)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.Bind(System.ICustomFormatter)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.Bind(System.IFormatProvider)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.Constructor">
+            <summary>设置 StringTruncationFormatter.StringTruncationFormatter() 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.FormatStringObjectIFormatProvider">
+            <summary>设置 StringTruncationFormatter.Format(String format, Object arg, IFormatProvider formatProvider) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.GetFormatType">
+            <summary>设置 StringTruncationFormatter.GetFormat(Type formatType) 的 填充码</summary>
+        </member>
+        <member name="T:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.AllInstances.FormatStringObjectIFormatProvider">
+            <summary>设置 StringTruncationFormatter.Format(String format, Object arg, IFormatProvider formatProvider) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimStringTruncationFormatter.AllInstances.GetFormatType">
+            <summary>设置 StringTruncationFormatter.GetFormat(Type formatType) 的 填充码</summary>
+        </member>
+        <member name="T:Appccelerate.Formatters.Fakes.ShimTypeExtensions">
+            <summary>Appccelerate.Formatters.TypeExtensions 的填充码类型</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.ShimTypeExtensions.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.ShimTypeExtensions.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.ShimTypeExtensions.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimTypeExtensions.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimTypeExtensions.FullNameToStringType">
+            <summary>设置 TypeExtensions.FullNameToString(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.ShimTypeExtensions._FullNameToStringb__0Type">
+            <summary>设置 TypeExtensions.&lt;FullNameToString&gt;b__0(Type arg) 的 填充码</summary>
+        </member>
+        <member name="T:Appccelerate.Formatters.Fakes.StubStringTruncationFormatter">
+            <summary>Appccelerate.Formatters.StringTruncationFormatter 的存根类型</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.StubStringTruncationFormatter.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.StubStringTruncationFormatter.Format(System.String,System.Object,System.IFormatProvider)">
+            <summary>设置 StringTruncationFormatter.Format(String format, Object arg, IFormatProvider formatProvider) 的 存根</summary>
+        </member>
+        <member name="F:Appccelerate.Formatters.Fakes.StubStringTruncationFormatter.FormatStringObjectIFormatProvider">
+            <summary>设置 StringTruncationFormatter.Format(String format, Object arg, IFormatProvider formatProvider) 的 stub</summary>
+        </member>
+        <member name="M:Appccelerate.Formatters.Fakes.StubStringTruncationFormatter.InitializeStub">
+            <summary>初始化 type StubStringTruncationFormatter 的新实例</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.StubStringTruncationFormatter.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.StubStringTruncationFormatter.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Appccelerate.Formatters.Fakes.StubStringTruncationFormatter.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>

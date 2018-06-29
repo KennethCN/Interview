@@ -1,0 +1,12 @@
+D:\20项目文件\芬兰\InterviewAssignment_1\InterviewAssignment\InterviewAssignment\bin\Debug\InterviewAssignment.exe.config
+D:\20项目文件\芬兰\InterviewAssignment_1\InterviewAssignment\InterviewAssignment\obj\Debug\InterviewAssignment.csprojFakesResolveAssemblyReference.cache
+D:\20项目文件\芬兰\InterviewAssignment\InterviewAssignment\InterviewAssignment\bin\Debug\InterviewAssignment.exe.config
+D:\20项目文件\芬兰\InterviewAssignment\InterviewAssignment\InterviewAssignment\bin\Debug\InterviewAssignment.exe
+D:\20项目文件\芬兰\InterviewAssignment\InterviewAssignment\InterviewAssignment\bin\Debug\InterviewAssignment.pdb
+D:\20项目文件\芬兰\InterviewAssignment\InterviewAssignment\InterviewAssignment\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\20项目文件\芬兰\InterviewAssignment\InterviewAssignment\InterviewAssignment\bin\Debug\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\20项目文件\芬兰\InterviewAssignment\InterviewAssignment\InterviewAssignment\obj\Debug\InterviewAssignment.exe
+D:\20项目文件\芬兰\InterviewAssignment\InterviewAssignment\InterviewAssignment\obj\Debug\InterviewAssignment.pdb
+D:\Project\InterviewAssignment_2\InterviewAssignment\bin\Debug\InterviewAssignment.exe.config
+D:\Project\InterviewAssignment_2\InterviewAssignment\obj\Debug\InterviewAssignment.exe
+D:\Project\InterviewAssignment_2\InterviewAssignment\obj\Debug\InterviewAssignment.pdb
